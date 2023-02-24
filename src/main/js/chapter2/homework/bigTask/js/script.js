@@ -8,3 +8,11 @@ const personalMovieDB = {
     genres: [],
     privat: false
 }
+
+const filmName = prompt("Один из последних просмотренных фильмов?");
+const filmMark = prompt("На сколько его оцените?");
+
+const movies = {
+};
+movies[`${filmName}`] = filmMark;
+
