@@ -1,2 +1,4 @@
 # Project exclude paths
 /.gradle/
+
+/node_modules
