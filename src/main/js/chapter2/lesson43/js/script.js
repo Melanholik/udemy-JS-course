@@ -29,4 +29,4 @@ div.style.width = "100%";
 div.style.height = "auto"
 div.innerHTML = "<h1>Hello World</h1>";
 // div.textContent = "<h2>Текст</h2>";
-div.insertAdjacentHTML("beforeend", "<h1>Текст</h1>")
+div.insertAdjacentHTML("afterbegin", "<h1>Текст</h1>")
